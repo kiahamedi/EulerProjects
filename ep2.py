@@ -21,6 +21,7 @@ a = 1
 b = 2
 counterO = 0
 counterO = counterO + b
+
 for i in range(1,50):
     print("Now in loop: " + str(i))
     c = a + b
@@ -31,5 +32,6 @@ for i in range(1,50):
             counterO = counterO + c
     else:
         break
+        
 print("Answer is: " + str(counterO))
     
